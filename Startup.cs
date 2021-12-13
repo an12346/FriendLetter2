@@ -25,7 +25,7 @@ namespace FriendLetter
 
     public void Configure(IApplicationBuilder app)  // required method
     {
-       app.UseDeveloperExceptionPage(); 
+       app.UseDeveloperExceptionPage(); //provide more details when it has error
        
        app.UseRouting();
 
